@@ -27,6 +27,13 @@ body {
   background-color: #fff;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  flex-shrink: 0;
+}
+
 /* common */
 .container {
   max-width: 1158px;
@@ -256,7 +263,6 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .team-list-img {
-  display: block;
 }
 .team-list-subtitle {
   font-weight: 500;
